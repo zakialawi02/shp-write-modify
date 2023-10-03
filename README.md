@@ -95,6 +95,9 @@ const zipData = shpwrite.zip(
 ```
 
 ## Custom .prj file
+
+Default projection use WGS 1984
+
 To pass a custom [WKT string](http://www.opengeospatial.org/standards/wkt-crs) in the .prj file to define a different projection the prj option can be used:
 
 ```js
