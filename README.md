@@ -120,7 +120,7 @@ Another example for set custom projection
 ```
 For the value of the PRJ can copy from https://epsg.io/ and search for a projection system or the desired EPSG code. Then select Esri WKT to copy the code.
 
-Example: https://epsg.io/32750
+Example: https://epsg.io/32750 || https://epsg.io/32750.esriwkt
 
 
 ## API
