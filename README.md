@@ -17,8 +17,6 @@ Updated to fix custom projection.
 ## Minimal Example
 
 ```js
-var shpwrite = require("@mapbox/shp-write");
-
 // a GeoJSON bridge for features
 const zipData = shpwrite.zip(
   {
@@ -53,8 +51,6 @@ const zipData = shpwrite.zip(
 ## Options Example
 
 ```js
-var shpwrite = require("@mapbox/shp-write");
-
 const options = {
   folder: "my_internal_shapes_folder",
   filename: "my_zip_filename",
